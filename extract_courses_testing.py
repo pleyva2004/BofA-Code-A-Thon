@@ -139,8 +139,8 @@ def main():
     url_berkeley = "https://www2.eecs.berkeley.edu/Courses/CS/"
 
     
-    courses = scrape_courses(url_berkeley)
-    filename = f"{clean_url(url_berkeley)}_courses.csv"
+    courses = scrape_courses(url_njit)
+    filename = f"{clean_url(url_njit)}_courses.csv"
 
 
     if courses:

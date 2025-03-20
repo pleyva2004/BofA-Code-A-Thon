@@ -1,0 +1,555 @@
+[
+  {
+    "skill": "Python Programming",
+    "matching_courses": [
+      {
+        "course": "6 100a introduction to computer science programming in python",
+        "score": 0.5617685317993164,
+        "confidence": "Medium",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [
+            "100a"
+          ],
+          "skill_mentions": 5,
+          "complexity_score": 0.013157894736842105
+        },
+        "description": "introduction to computer science and programming for students with little or no programming experience students develop skills to program and use computational techniques to solve problems topics include the notion of computation python simple algorithms and data structures testing and debugging and algorithmic complexity combination of 6 100a and 6 100b or 16 c20 counts as rest subject final given in the seventh week of the term"
+      },
+      {
+        "course": "6 100l introduction to computer science and programming",
+        "score": 0.468986839056015,
+        "confidence": "Medium",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [
+            "100a"
+          ],
+          "skill_mentions": 4,
+          "complexity_score": 0.011111111111111112
+        },
+        "description": "introduction to computer science and programming for students with no programming experience presents content taught in 6 100a over an entire semester students develop skills to program and use computational techniques to solve problems topics include the notion of computation python simple algorithms and data structures testing and debugging and algorithmic complexity lectures are viewed outside of class in class time is dedicated to problem solving and discussion combination of 6 100l and 6 100b or 16 c20 counts as rest subject"
+      },
+      {
+        "course": "6 1904 introduction to low level programming in c and assembly",
+        "score": 0.43159976601600647,
+        "confidence": "Medium",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [
+            "100a"
+          ],
+          "skill_mentions": 2,
+          "complexity_score": 0.011111111111111112
+        },
+        "description": "introduction to c and assembly language for students coming from a python background 6 100a studies the c language focusing on memory and associated topics including pointers how different data structures are stored in memory the stack and the heap in order to build a strong understanding of the constraints involved in manipulating complex data structures in modern computational systems studies assembly language to facilitate a firm understanding of how high level languages are translated to machine level instructions"
+      }
+    ]
+  },
+  {
+    "skill": "Machine Learning Algorithms",
+    "matching_courses": [
+      {
+        "course": "6 100l introduction to computer science and programming",
+        "score": 0.4145907759666443,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [
+            "100a"
+          ],
+          "skill_mentions": 1,
+          "complexity_score": 0.011111111111111112
+        },
+        "description": "introduction to computer science and programming for students with no programming experience presents content taught in 6 100a over an entire semester students develop skills to program and use computational techniques to solve problems topics include the notion of computation python simple algorithms and data structures testing and debugging and algorithmic complexity lectures are viewed outside of class in class time is dedicated to problem solving and discussion combination of 6 100l and 6 100b or 16 c20 counts as rest subject"
+      },
+      {
+        "course": "6 5150 large scale symbolic systems",
+        "score": 0.3883192241191864,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 0,
+          "complexity_score": 0.0
+        },
+        "description": "concepts and techniques for the design and implementation of large software systems that can be adapted to uses not anticipated by the designer applications include compilers computer algebra systems deductive systems and some artificial intelligence applications covers means for decoupling goals from strategy mechanisms for implementing additive data directed invocation work with partially specified entities and how to manage multiple viewpoints topics include combinators generic operations pattern matching pattern directed invocation rule systems backtracking dependencies indeterminacy memoization constraint propagation and incremental refinement students taking graduate version complete additional assignments"
+      },
+      {
+        "course": "6 5151 large scale symbolic systems",
+        "score": 0.3831497132778168,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 0,
+          "complexity_score": 0.0
+        },
+        "description": "concepts and techniques for the design and implementation of large software systems that can be adapted to uses not anticipated by the designer applications include compilers computer algebra systems deductive systems and some artificial intelligence applications covers means for decoupling goals from strategy mechanisms for implementing additive data directed invocation work with partially specified entities and how to manage multiple viewpoints topics include combinators generic operations pattern matching pattern directed invocation rule systems backtracking dependencies indeterminacy memoization constraint propagation and incremental refinement students taking graduate version complete additional assignments"
+      }
+    ]
+  },
+  {
+    "skill": "Deep Learning (CNNs, RNNs, Transformers)",
+    "matching_courses": [
+      {
+        "course": "6 5230 advanced data structures",
+        "score": 0.33772486448287964,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [
+            "linear"
+          ],
+          "skill_mentions": 0,
+          "complexity_score": 0.00847457627118644
+        },
+        "description": "more advanced and powerful data structures for answering several queries on the same data such structures are crucial in particular for designing efficient algorithms dictionaries hashing search trees self adjusting data structures linear search splay trees dynamic optimality integer data structures word ram predecessor problem van emde boas priority queues y fast trees fusion trees lower bounds cell probe model round elimination dynamic graphs link cut trees dynamic connectivity strings text indexing suffix arrays suffix trees static data structures compact arrays rank and select succinct data structures tree encodings implicit data structures external memory and cache oblivious data structures b trees buffer trees tree layout ordered file maintenance temporal data structures persistence retroactivity"
+      },
+      {
+        "course": "6 100l introduction to computer science and programming",
+        "score": 0.2631714642047882,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [
+            "100a"
+          ],
+          "skill_mentions": 0,
+          "complexity_score": 0.011111111111111112
+        },
+        "description": "introduction to computer science and programming for students with no programming experience presents content taught in 6 100a over an entire semester students develop skills to program and use computational techniques to solve problems topics include the notion of computation python simple algorithms and data structures testing and debugging and algorithmic complexity lectures are viewed outside of class in class time is dedicated to problem solving and discussion combination of 6 100l and 6 100b or 16 c20 counts as rest subject"
+      },
+      {
+        "course": "6 5150 large scale symbolic systems",
+        "score": 0.25803816318511963,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 0,
+          "complexity_score": 0.0
+        },
+        "description": "concepts and techniques for the design and implementation of large software systems that can be adapted to uses not anticipated by the designer applications include compilers computer algebra systems deductive systems and some artificial intelligence applications covers means for decoupling goals from strategy mechanisms for implementing additive data directed invocation work with partially specified entities and how to manage multiple viewpoints topics include combinators generic operations pattern matching pattern directed invocation rule systems backtracking dependencies indeterminacy memoization constraint propagation and incremental refinement students taking graduate version complete additional assignments"
+      }
+    ]
+  },
+  {
+    "skill": "Data Structures & Algorithms",
+    "matching_courses": [
+      {
+        "course": "6 5150 large scale symbolic systems",
+        "score": 0.4894683361053467,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 1,
+          "complexity_score": 0.0
+        },
+        "description": "concepts and techniques for the design and implementation of large software systems that can be adapted to uses not anticipated by the designer applications include compilers computer algebra systems deductive systems and some artificial intelligence applications covers means for decoupling goals from strategy mechanisms for implementing additive data directed invocation work with partially specified entities and how to manage multiple viewpoints topics include combinators generic operations pattern matching pattern directed invocation rule systems backtracking dependencies indeterminacy memoization constraint propagation and incremental refinement students taking graduate version complete additional assignments"
+      },
+      {
+        "course": "6 5230 advanced data structures",
+        "score": 0.48464035987854004,
+        "confidence": "Medium",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [
+            "linear"
+          ],
+          "skill_mentions": 21,
+          "complexity_score": 0.00847457627118644
+        },
+        "description": "more advanced and powerful data structures for answering several queries on the same data such structures are crucial in particular for designing efficient algorithms dictionaries hashing search trees self adjusting data structures linear search splay trees dynamic optimality integer data structures word ram predecessor problem van emde boas priority queues y fast trees fusion trees lower bounds cell probe model round elimination dynamic graphs link cut trees dynamic connectivity strings text indexing suffix arrays suffix trees static data structures compact arrays rank and select succinct data structures tree encodings implicit data structures external memory and cache oblivious data structures b trees buffer trees tree layout ordered file maintenance temporal data structures persistence retroactivity"
+      },
+      {
+        "course": "6 5151 large scale symbolic systems",
+        "score": 0.4742392599582672,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 1,
+          "complexity_score": 0.0
+        },
+        "description": "concepts and techniques for the design and implementation of large software systems that can be adapted to uses not anticipated by the designer applications include compilers computer algebra systems deductive systems and some artificial intelligence applications covers means for decoupling goals from strategy mechanisms for implementing additive data directed invocation work with partially specified entities and how to manage multiple viewpoints topics include combinators generic operations pattern matching pattern directed invocation rule systems backtracking dependencies indeterminacy memoization constraint propagation and incremental refinement students taking graduate version complete additional assignments"
+      }
+    ]
+  },
+  {
+    "skill": "Mathematics for AI (Linear Algebra, Calculus, Probability, Statistics)",
+    "matching_courses": [
+      {
+        "course": "6 1200 j mathematics for computer science",
+        "score": 0.39941778779029846,
+        "confidence": "Medium",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 4,
+          "complexity_score": 0.0
+        },
+        "description": "elementary discrete mathematics for science and engineering with a focus on mathematical tools and proof techniques useful in computer science topics include logical notation sets relations elementary graph theory state machines and invariants induction and proofs by contradiction recurrences asymptotic notation elementary analysis of algorithms elementary number theory and cryptography permutations and combinations counting tools and discrete probability"
+      },
+      {
+        "course": "6 1210 introduction to algorithms",
+        "score": 0.3949810266494751,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 1,
+          "complexity_score": 0.0
+        },
+        "description": "introduction to mathematical modeling of computational problems as well as common algorithms algorithmic paradigms and data structures used to solve these problems emphasizes the relationship between algorithms and programming and introduces basic performance measures and analysis techniques for these problems enrollment may be limited"
+      },
+      {
+        "course": "6 5240 sublinear time algorithms",
+        "score": 0.3940902352333069,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 0,
+          "complexity_score": 0.0
+        },
+        "description": "sublinear time algorithms understand parameters and properties of input data after viewing only a minuscule fraction of it tools from number theory combinatorics linear algebra optimization theory distributed algorithms statistics and probability are covered topics include testing and estimating properties of distributions functions graphs strings point sets and various combinatorial objects"
+      }
+    ]
+  },
+  {
+    "skill": "Model Training & Evaluation (Accuracy, Precision, Recall, F1-score)",
+    "matching_courses": [
+      {
+        "course": "6 1040 software design",
+        "score": 0.315593957901001,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 1,
+          "complexity_score": 0.0
+        },
+        "description": "provides design focused instruction on how to build complex software applications design topics include classic human computer interaction hci design tactics need finding heuristic evaluation prototyping user testing conceptual design inventing modeling and evaluating constituent concepts social and ethical implications abstract data modeling and visual design implementation topics include reactive front ends web services and databases students work both on individual projects and a larger team project in which they design and build full stack web applications"
+      },
+      {
+        "course": "6 5150 large scale symbolic systems",
+        "score": 0.2526773512363434,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 0,
+          "complexity_score": 0.0
+        },
+        "description": "concepts and techniques for the design and implementation of large software systems that can be adapted to uses not anticipated by the designer applications include compilers computer algebra systems deductive systems and some artificial intelligence applications covers means for decoupling goals from strategy mechanisms for implementing additive data directed invocation work with partially specified entities and how to manage multiple viewpoints topics include combinators generic operations pattern matching pattern directed invocation rule systems backtracking dependencies indeterminacy memoization constraint propagation and incremental refinement students taking graduate version complete additional assignments"
+      },
+      {
+        "course": "6 5151 large scale symbolic systems",
+        "score": 0.24655963480472565,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 0,
+          "complexity_score": 0.0
+        },
+        "description": "concepts and techniques for the design and implementation of large software systems that can be adapted to uses not anticipated by the designer applications include compilers computer algebra systems deductive systems and some artificial intelligence applications covers means for decoupling goals from strategy mechanisms for implementing additive data directed invocation work with partially specified entities and how to manage multiple viewpoints topics include combinators generic operations pattern matching pattern directed invocation rule systems backtracking dependencies indeterminacy memoization constraint propagation and incremental refinement students taking graduate version complete additional assignments"
+      }
+    ]
+  },
+  {
+    "skill": "Data Preprocessing & Cleaning",
+    "matching_courses": [
+      {
+        "course": "6 5230 advanced data structures",
+        "score": 0.4702308475971222,
+        "confidence": "Medium",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [
+            "linear"
+          ],
+          "skill_mentions": 10,
+          "complexity_score": 0.00847457627118644
+        },
+        "description": "more advanced and powerful data structures for answering several queries on the same data such structures are crucial in particular for designing efficient algorithms dictionaries hashing search trees self adjusting data structures linear search splay trees dynamic optimality integer data structures word ram predecessor problem van emde boas priority queues y fast trees fusion trees lower bounds cell probe model round elimination dynamic graphs link cut trees dynamic connectivity strings text indexing suffix arrays suffix trees static data structures compact arrays rank and select succinct data structures tree encodings implicit data structures external memory and cache oblivious data structures b trees buffer trees tree layout ordered file maintenance temporal data structures persistence retroactivity"
+      },
+      {
+        "course": "6 5830 database systems",
+        "score": 0.338223934173584,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 2,
+          "complexity_score": 0.0
+        },
+        "description": "topics related to the engineering and design of database systems including data models database and schema design schema normalization and integrity constraints query processing query optimization and cost estimation transactions recovery concurrency control isolation and consistency distributed parallel and heterogeneous databases adaptive databases trigger systems pub sub systems semi structured data and xml querying lecture and readings from original research papers semester long project and paper students taking graduate version complete different assignments enrollment may be limited"
+      },
+      {
+        "course": "6 5831 database systems",
+        "score": 0.3363516330718994,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 2,
+          "complexity_score": 0.0
+        },
+        "description": "topics related to the engineering and design of database systems including data models database and schema design schema normalization and integrity constraints query processing query optimization and cost estimation transactions recovery concurrency control isolation and consistency distributed parallel and heterogeneous databases adaptive databases trigger systems pub sub systems semi structured data and xml querying lecture and readings from original research papers semester long project and paper students taking graduate version complete different assignments enrollment may be limited"
+      }
+    ]
+  },
+  {
+    "skill": "Natural Language Processing (NLP)",
+    "matching_courses": [
+      {
+        "course": "6 1120 dynamic computer language engineering",
+        "score": 0.25381359457969666,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 1,
+          "complexity_score": 0.0
+        },
+        "description": "studies the design and implementation of modern dynamic programming languages topics include fundamental approaches for parsing semantics and interpretation virtual machines garbage collection just in time machine code generation and optimization includes a semester long group project that delivers a virtual machine that spans all of these topics"
+      },
+      {
+        "course": "6 1400 j computability and complexity theory",
+        "score": 0.2230464667081833,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 0,
+          "complexity_score": 0.0
+        },
+        "description": "mathematical introduction to the theory of computing rigorously explores what kinds of tasks can be efficiently solved with computers by way of finite automata circuits turing machines and communication complexity introducing students to some major open problems in mathematics builds skills in classifying computational tasks in terms of their difficulty discusses other fundamental issues in computing including the halting problem the church turing thesis the p versus np problem and the power of randomness"
+      },
+      {
+        "course": "6 1100 computer language engineering",
+        "score": 0.22002416849136353,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 1,
+          "complexity_score": 0.0
+        },
+        "description": "analyzes issues associated with the implementation of higher level programming languages fundamental concepts functions and structures of compilers the interaction of theory and practice using tools in building software includes a multi person project on compiler design and implementation"
+      }
+    ]
+  },
+  {
+    "skill": "Computer Vision",
+    "matching_courses": [
+      {
+        "course": "6 1820 j mobile and sensor computing",
+        "score": 0.3513694703578949,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 0,
+          "complexity_score": 0.0
+        },
+        "description": "focuses on internet of things iot systems and technologies sensing computing and communication explores fundamental design and implementation issues in the engineering of mobile and sensor computing systems topics include battery free sensors seeing through wall robotic sensors vital sign sensors breathing heartbeats emotions sensing in cars and autonomous vehicles subsea iot sensor security positioning technologies including gps and indoor wifi inertial sensing accelerometers gyroscopes inertial measurement units dead reckoning embedded and distributed system architectures sensing with radio signals sensing with microphones and cameras wireless sensor networks embedded and distributed system architectures mobile libraries and apis to sensors and application case studies includes readings from research literature as well as laboratory assignments and a significant term project"
+      },
+      {
+        "course": "6 5910 complex digital systems design",
+        "score": 0.3099192976951599,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 0,
+          "complexity_score": 0.0
+        },
+        "description": "introduction to the design and implementation of large scale digital systems using hardware description languages and high level synthesis tools in conjunction with standard commercial electronic design automation eda tools emphasizes modular and robust designs reusable modules correctness by construction architectural exploration meeting area and timing constraints and developing functional field programmable gate array fpga prototypes extensive use of cad tools in weekly labs serve as preparation for a multi person design project on multi million gate fpgas enrollment may be limited"
+      },
+      {
+        "course": "6 5150 large scale symbolic systems",
+        "score": 0.30858367681503296,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 1,
+          "complexity_score": 0.0
+        },
+        "description": "concepts and techniques for the design and implementation of large software systems that can be adapted to uses not anticipated by the designer applications include compilers computer algebra systems deductive systems and some artificial intelligence applications covers means for decoupling goals from strategy mechanisms for implementing additive data directed invocation work with partially specified entities and how to manage multiple viewpoints topics include combinators generic operations pattern matching pattern directed invocation rule systems backtracking dependencies indeterminacy memoization constraint propagation and incremental refinement students taking graduate version complete additional assignments"
+      }
+    ]
+  },
+  {
+    "skill": "AI Frameworks & Libraries (TensorFlow, PyTorch, Scikit-learn, Keras)",
+    "matching_courses": [
+      {
+        "course": "6 5930 hardware architecture for deep learning",
+        "score": 0.40016281604766846,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 1,
+          "complexity_score": 0.0
+        },
+        "description": "introduction to the design and implementation of hardware architectures for efficient processing of deep learning algorithms and tensor algebra in ai systems topics include basics of deep learning optimization principles for programmable platforms design principles of accelerator architectures co optimization of algorithms and hardware including sparsity and use of advanced technologies including memristors and optical computing includes labs involving modeling and analysis of hardware architectures architecting deep learning inference systems and an open ended design project students taking graduate version complete additional assignments"
+      },
+      {
+        "course": "6 5931 hardware architecture for deep learning",
+        "score": 0.39141228795051575,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 1,
+          "complexity_score": 0.0
+        },
+        "description": "introduction to the design and implementation of hardware architectures for efficient processing of deep learning algorithms and tensor algebra in ai systems topics include basics of deep learning optimization principles for programmable platforms design principles of accelerator architectures co optimization of algorithms and hardware including sparsity and use of advanced technologies including memristors and optical computing includes labs involving modeling and analysis of hardware architectures architecting deep learning inference systems and an open ended design project students taking graduate version complete additional assignments"
+      },
+      {
+        "course": "6 100a introduction to computer science programming in python",
+        "score": 0.33134302496910095,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [
+            "100a"
+          ],
+          "skill_mentions": 0,
+          "complexity_score": 0.013157894736842105
+        },
+        "description": "introduction to computer science and programming for students with little or no programming experience students develop skills to program and use computational techniques to solve problems topics include the notion of computation python simple algorithms and data structures testing and debugging and algorithmic complexity combination of 6 100a and 6 100b or 16 c20 counts as rest subject final given in the seventh week of the term"
+      }
+    ]
+  },
+  {
+    "skill": "Version Control (Git & GitHub)",
+    "matching_courses": [
+      {
+        "course": "6 5120 formal reasoning about programs",
+        "score": 0.2752968668937683,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [
+            "coq"
+          ],
+          "skill_mentions": 0,
+          "complexity_score": 0.011494252873563218
+        },
+        "description": "surveys techniques for rigorous mathematical reasoning about correctness of software emphasizing commonalities across approaches introduces interactive computer theorem proving with the coq proof assistant which is used for all assignments providing immediate feedback on soundness of logical arguments covers common program proof techniques including operational semantics model checking abstract interpretation type systems program logics and their applications to functional imperative and concurrent programs develops a common conceptual framework based on invariants abstraction and modularity applied to state and labeled transition systems"
+      },
+      {
+        "course": "6 5150 large scale symbolic systems",
+        "score": 0.2641540765762329,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 1,
+          "complexity_score": 0.0
+        },
+        "description": "concepts and techniques for the design and implementation of large software systems that can be adapted to uses not anticipated by the designer applications include compilers computer algebra systems deductive systems and some artificial intelligence applications covers means for decoupling goals from strategy mechanisms for implementing additive data directed invocation work with partially specified entities and how to manage multiple viewpoints topics include combinators generic operations pattern matching pattern directed invocation rule systems backtracking dependencies indeterminacy memoization constraint propagation and incremental refinement students taking graduate version complete additional assignments"
+      },
+      {
+        "course": "6 5110 foundations of program analysis",
+        "score": 0.2620820105075836,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 0,
+          "complexity_score": 0.0
+        },
+        "description": "presents major principles and techniques for program analysis includes formal semantics type systems and type based program analysis abstract interpretation and model checking and synthesis emphasis on haskell and ocaml but no prior experience in these languages is assumed student assignments include implementing of techniques covered in class including building simple verifiers"
+      }
+    ]
+  },
+  {
+    "skill": "Cloud Platforms (AWS, GCP, Azure)",
+    "matching_courses": [
+      {
+        "course": "6 1600 foundations of computer security",
+        "score": 0.2786855697631836,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 0,
+          "complexity_score": 0.0
+        },
+        "description": "fundamental notions and big ideas for achieving security in computer systems topics include cryptographic foundations pseudorandomness collision resistant hash functions authentication codes signatures authenticated encryption public key encryption systems ideas isolation non interference authentication access control delegation trust and implementation techniques privilege separation fuzzing symbolic execution runtime defenses side channel attacks case studies of how these ideas are realized in deployed systems lab assignments apply ideas from lectures to learn how to build secure systems and how they can be attacked"
+      },
+      {
+        "course": "6 5840 distributed computer systems engineering",
+        "score": 0.2638157904148102,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 0,
+          "complexity_score": 0.0
+        },
+        "description": "abstractions and implementation techniques for engineering distributed systems remote procedure call threads and locking client server peer to peer consistency fault tolerance and security readings from current literature individual laboratory assignments culminate in the construction of a fault tolerant and scalable network file system programming experience with c c required enrollment limited"
+      },
+      {
+        "course": "6 1800 computer systems engineering",
+        "score": 0.24940213561058044,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 0,
+          "complexity_score": 0.0
+        },
+        "description": "topics on the engineering of computer software and hardware systems techniques for controlling complexity strong modularity using client server design operating systems performance networks naming security and privacy fault tolerant systems atomicity and coordination of concurrent activities and recovery impact of computer systems on society case studies of working systems and readings from the current literature provide comparisons and contrasts includes a single semester long design project students engage in extensive written communication exercises enrollment may be limited"
+      }
+    ]
+  },
+  {
+    "skill": "Model Deployment (APIs, Flask/FastAPI, Docker)",
+    "matching_courses": [
+      {
+        "course": "6 1040 software design",
+        "score": 0.32459303736686707,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 0,
+          "complexity_score": 0.0
+        },
+        "description": "provides design focused instruction on how to build complex software applications design topics include classic human computer interaction hci design tactics need finding heuristic evaluation prototyping user testing conceptual design inventing modeling and evaluating constituent concepts social and ethical implications abstract data modeling and visual design implementation topics include reactive front ends web services and databases students work both on individual projects and a larger team project in which they design and build full stack web applications"
+      },
+      {
+        "course": "6 5150 large scale symbolic systems",
+        "score": 0.2797035872936249,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 0,
+          "complexity_score": 0.0
+        },
+        "description": "concepts and techniques for the design and implementation of large software systems that can be adapted to uses not anticipated by the designer applications include compilers computer algebra systems deductive systems and some artificial intelligence applications covers means for decoupling goals from strategy mechanisms for implementing additive data directed invocation work with partially specified entities and how to manage multiple viewpoints topics include combinators generic operations pattern matching pattern directed invocation rule systems backtracking dependencies indeterminacy memoization constraint propagation and incremental refinement students taking graduate version complete additional assignments"
+      },
+      {
+        "course": "6 5151 large scale symbolic systems",
+        "score": 0.2787344753742218,
+        "confidence": "Low",
+        "analysis": {
+          "key_concepts": [],
+          "technical_terms": [],
+          "skill_mentions": 0,
+          "complexity_score": 0.0
+        },
+        "description": "concepts and techniques for the design and implementation of large software systems that can be adapted to uses not anticipated by the designer applications include compilers computer algebra systems deductive systems and some artificial intelligence applications covers means for decoupling goals from strategy mechanisms for implementing additive data directed invocation work with partially specified entities and how to manage multiple viewpoints topics include combinators generic operations pattern matching pattern directed invocation rule systems backtracking dependencies indeterminacy memoization constraint propagation and incremental refinement students taking graduate version complete additional assignments"
+      }
+    ]
+  }
+]
