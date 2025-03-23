@@ -2,8 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import { createClient } from '@supabase/supabase-js';
 
-const supabaseUrl = process.env.REACT_APP_SUPABASE_URL;
-const supabaseKey = process.env.REACT_APP_SUPABASE_ANON_KEY;
+const supabaseUrl ="https://buwbxnzdbgszvfqxmgfy.supabase.co";
+const supabaseKey ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ1d2J4bnpkYmdzenZmcXhtZ2Z5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDI2Mjc4ODQsImV4cCI6MjA1ODIwMzg4NH0.ZLLi-76N_X2t-2NUpbVj1VWHhVT6nMkPZCoAYdbKa50";
 
 console.log('Supabase URL:', supabaseUrl);
 console.log('Supabase Key exists:', !!supabaseKey);
@@ -43,7 +43,12 @@ const UniversitySelector: React.FC<UniversitySelectorProps> = ({ selectedUnivers
     // Insert into your Supabase table (this example assumes you're doing that)
     const { data, error } = await supabase
       .from('university_courses')
-      .insert([{ university_name: newUniversity, matched_courses: {} }]);
+      .insert([{ 
+        university_name: newUniversity, 
+        matched_courses: {}, 
+        link: "",          // Provide an empty string or some default
+        all_courses: {}     // Or {} if you prefer an object
+      }]);
 
     if (error) {
       console.error("Error adding university:", error);
@@ -85,7 +90,9 @@ const UniversitySelector: React.FC<UniversitySelectorProps> = ({ selectedUnivers
             .from('university_courses')
             .insert([{ 
               university_name: university, 
-              matched_courses: {} 
+              matched_courses: {},
+              link: "",       // Provide an empty string or a default link
+              all_courses: []  // Or {}
             }])
             .select();
 
