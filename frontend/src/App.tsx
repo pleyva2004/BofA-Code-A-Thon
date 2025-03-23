@@ -8,19 +8,37 @@ import ResourceSidebar from './components/ResourceSidebar';
 //import SearchBar from './components/SearchBar';
 import FeaturedResources from './components/FeaturedResources';
 import SkillProgress from './components/SkillProgress';
+import UniversitySelector from './components/UniversitySelector';
+import CourseDataFetcher from './components/CourseDataFetcher';
 
 function App() {
-  //const [searchQuery, setSearchQuery] = useState('');
+  // Existing active view state
   const [activeView, setActiveView] = useState<'mindmap' | 'mindmapbe' | 'mindmapai' | 'resources' | 'skills'>('mindmap');
-  /*
-  const handleSearch = (query: string) => {
-    setSearchQuery(query);
-    console.log('Searching for:', query);
-  };
-*/
+  
+  // Lift state for the selected university.
+  const [selectedUniversity, setSelectedUniversity] = useState("New Jersey Institute of Technology");
+
+  // For simplicity, we hardcode a career here.
+  const [career, setCareer] = useState("AI Engineer");
+
   return (
     <div className="App">
       <Navbar />
+
+      {/* University selector placed after the Navbar.
+          It now receives the selectedUniversity value and a setter function so that any change here updates the lifted state */}
+      <UniversitySelector 
+        selectedUniversity={selectedUniversity} 
+        setSelectedUniversity={setSelectedUniversity} 
+      />
+
+      {/* CourseDataFetcher uses the shared state.
+          When the user clicks the fetch button, it will use the selectedUniversity and career to trigger your backend processing */}
+      <CourseDataFetcher 
+        universityName={selectedUniversity} 
+        career={career} 
+      />
+
       <div className="background">
         <div className="view-toggle">
           <button 
@@ -44,11 +62,11 @@ function App() {
         </div>
         <div className="card">
           <div className="app-container">
-            <ResourceSidebar /> {/*left section of website, commenting the tag out will remove that sections*/}
+            <ResourceSidebar /> {/* Left section */}
             <div className="main-content">
-              {/*
+              {/* 
               <SearchBar onSearch={handleSearch} />
-              */} 
+              */}
               {activeView === 'mindmap' && <MindMap />}
               {activeView === 'mindmapbe' && <MindMapBE />}
               {activeView === 'mindmapai' && <MindMapAI />}

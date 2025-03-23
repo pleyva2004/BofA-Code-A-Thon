@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
         <h1 style={{
           margin: 0,
           color: '#333',
-          fontSize: '1.5rem',
+          fontSize: '2.4rem',
           fontWeight: 'bold'
         }}>
           Career<span style={{ color: '#4285f4' }}>Paths</span>
@@ -31,6 +31,7 @@ const Navbar: React.FC = () => {
         gap: '1.5rem',
         alignItems: 'center'
       }}>
+      {/*}
         <NavItem active>Home</NavItem>
         <NavItem>Resources</NavItem>
         <NavItem>Skills</NavItem>
@@ -49,6 +50,7 @@ const Navbar: React.FC = () => {
         }}>
           Get Started
         </button>
+        */}
       </div>
     </div>
   );
