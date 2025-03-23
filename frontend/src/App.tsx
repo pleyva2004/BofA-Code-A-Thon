@@ -3,6 +3,10 @@ import './App.css';
 import MindMap from './components/MindMap';
 import MindMapBE from './components/MindMapBE';
 import MindMapAI from './components/MindMapAI';
+import MindMapCyber from './components/MindMapCyber';
+import MindMapGD from './components/MindMapGD';
+import MindMapDS from './components/MindMapDS';
+
 import Navbar from './components/Navbar';
 import ResourceSidebar from './components/ResourceSidebar';
 //import SearchBar from './components/SearchBar';
@@ -13,7 +17,7 @@ import CourseDataFetcher from './components/CourseDataFetcher';
 
 function App() {
   // Existing active view state
-  const [activeView, setActiveView] = useState<'mindmap' | 'mindmapbe' | 'mindmapai' | 'resources' | 'skills'>('mindmap');
+  const [activeView, setActiveView] = useState<'mindmap' | 'mindmapbe' | 'mindmapai' | 'mindmapcyber'| 'mindmapgd' | 'mindmapds' | 'resources' | 'skills'>('mindmap');
   
   // Lift state for the selected university.
   const [selectedUniversity, setSelectedUniversity] = useState("New Jersey Institute of Technology");
@@ -47,19 +51,37 @@ function App() {
             className={`toggle-btn ${activeView === 'mindmap' ? 'active' : ''}`}
             onClick={() => setActiveView('mindmap')}
           >
-            Front End Developer
+            Frontend Developer
           </button>
           <button 
             className={`toggle-btn ${activeView === 'mindmapbe' ? 'active' : ''}`}
             onClick={() => setActiveView('mindmapbe')}
           >
-            Back End Developer
+            Backend Developer
           </button>
           <button 
             className={`toggle-btn ${activeView === 'mindmapai' ? 'active' : ''}`}
             onClick={() => setActiveView('mindmapai')}
           >
-            AI/ML Engineer
+            AI Engineer
+          </button>
+          <button 
+            className={`toggle-btn ${activeView === 'mindmapcyber' ? 'active' : ''}`}
+            onClick={() => setActiveView('mindmapcyber')}
+          >
+            Cybersecurity
+          </button>
+          <button 
+            className={`toggle-btn ${activeView === 'mindmapgd' ? 'active' : ''}`}
+            onClick={() => setActiveView('mindmapgd')}
+          >
+            Game Development
+          </button>
+          <button 
+            className={`toggle-btn ${activeView === 'mindmapds' ? 'active' : ''}`}
+            onClick={() => setActiveView('mindmapds')}
+          >
+            Data Science
           </button>
         </div>
         <div className="card">
@@ -72,6 +94,10 @@ function App() {
               {activeView === 'mindmap' && <MindMap />}
               {activeView === 'mindmapbe' && <MindMapBE />}
               {activeView === 'mindmapai' && <MindMapAI />}
+              {activeView === 'mindmapcyber' && <MindMapCyber />}
+              {activeView === 'mindmapgd' && <MindMapGD />}
+              {activeView === 'mindmapds' && <MindMapDS />}
+
               {activeView === 'resources' && <FeaturedResources />}
               {activeView === 'skills' && <SkillProgress />}
             </div>

@@ -136,7 +136,7 @@ const UniversitySelector: React.FC<UniversitySelectorProps> = ({ selectedUnivers
           ))}
         </select>
 
-        <span className="text-gray-600 font-medium">or add your university:</span>
+        <span className="text-gray-600 font-medium"> or add your university:</span>
 
         <input
           type="text"
