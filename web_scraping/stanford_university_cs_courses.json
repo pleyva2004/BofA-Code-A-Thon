@@ -1,0 +1,46 @@
+{
+    "university": "Stanford University",
+    "courses": [
+        {
+            "title": "CS 1U:",
+            "description": "A practical introduction to using the Unix operating system with a focus on Linux command line skills. Class will consist of video tutorials and weekly hands-on lab sections. Topics include: grep and regular expressions, ZSH, Vim and Emacs, basic and advanced GDB features, permissions, working with the file system, revision control, Unix utilities, environment customization, and using Python for shell scripts. Topics may be added, given sufficient interest. Course website: \nhttp://cs1u.stanford.edu"
+        },
+        {
+            "title": "CS 7:",
+            "description": "Introduction to the fundamentals and analysis specifically needed by engineers to make informed and intelligent financial decisions. Course will focus on actual industry-based financial information from technology companies and realistic financial issues. Topics include: behavioral finance, budgeting, debt, compensation, stock options, investing and real estate. No prior finance or economics experience required."
+        },
+        {
+            "title": "CS 9:",
+            "description": "This course will prepare students to apply and interview for internships and full-time positions in the software engineering industry. Each week, we will have one meeting focused on advice (e.g. resume prep, behavioral interviews, salary negotiation, panel discussions with representatives from startups and big tech), and one meeting focused on working through and discussing one or more coding problems."
+        },
+        {
+            "title": "CS 11SI:",
+            "description": "In this hands-on, experiential course, students will design and develop virtual reality applications. You'll learn how to use the Unity game engine, the most popular platform for creating immersive applications. The class will teach the design best practices and the creation pipeline for VR applications. Students will work in groups to present a final project in building an application for the Oculus Quest 2 headset. Enrollment is limited and by application only. See \nhttps://cs11si.stanford.edu for more information and the link to the application. Prerequisite: \nCS 106A or equivalent"
+        },
+        {
+            "title": "CS 12SI:",
+            "description": "This one-unit workshop introduces UX design fundamentals for XR (Extended Reality) applications through a combination of hands-on work sessions and guest lectures from industry and academic experts, focusing on spatial prototyping and introducing Xcode for implementing applications on the Apple Vision Pro. Prerequisite: \nCS 106A or equivalent basic coding experience. Please go to \ncs12si.stanford.edu for an application link."
+        },
+        {
+            "title": "CS 13SI:",
+            "description": "Introduction to version control systems and how they can be used to explore the history of changes in a software project, encourage best practices in the software development process, and aid in collaboration within software engineering teams. Students will learn how to use git to make modular changes in a software repository, explore parallel ideas with branches, merge changes from multiple collaborators, and more. Basic programming at the level of \nCS 106A is recommended."
+        },
+        {
+            "title": "CS 21SI:",
+            "description": "Students will explore challenging social issues, and learn about the opportunities and limitations for AI to empower human solutions! You'll learn about applying AI to real-world social good spaces (such as climate, education, and housing) and learn what this looks like in practice. The class provides a high-level overview of the machine learning and deep learning techniques that have already proven effective in tackling social problems. Overall, we aim to center the \"social good\" component of AI for Social Good and cover material you would not otherwise see in the AI curriculum at Stanford. The course structure alternates between instructional lectures and bi-weekly guest speakers at the forefront of technology for social good. Students will be given the chance to engage in a flexible combination of AI model building, discussion, and individual exploration. Special topics may include: tech ethics, human-centered AI, AI safety, education technology, mental health applications, AI in policy, assistive robotics. Prerequisites: programming experience at the level of CS106A and an interest in social impact! Application required for enrollment: \nhttp://tinyurl.com/cs21si2425. We encourage students from all disciplines and backgrounds to apply!"
+        },
+        {
+            "title": "CS 22A:",
+            "description": "Recent advances in Generative Artificial Intelligence place us at the threshold of a unique turning point in human history. For the first time, we face the prospect that we are not the only generally intelligent entities, and indeed that we may be less capable than our own creations. As this remarkable new technology continues to advance, we are likely to entrust management of our environment, economy, security, infrastructure, food production, healthcare, and to a large degree even our personal activities, to artificially intelligent computer systems. The prospect of \"turning over the keys\" to increasingly autonomous and unpredictable machines raises many complex and troubling questions. How will society respond as they displace an ever-expanding spectrum of blue- and white-collar workers? Will the benefits of this technological revolution be broadly distributed or accrue to a lucky few? How can we ensure that these systems are free of bias and align with human ethical principles? Wha\r\n\t\t\t\t\t\t\t\tmore \u00bb"
+        },
+        {
+            "title": "CS 24:",
+            "description": "(Formerly \nSYMSYS 100). An overview of the interdisciplinary study of cognition, information, communication, and language, with an emphasis on foundational issues: What are minds? What is computation? What are rationality and intelligence? Can we predict human behavior? Can computers be truly intelligent? How do people and technology interact, and how might they do so in the future? Lectures focus on how the methods of philosophy, mathematics, empirical research, and computational modeling are used to study minds and machines. Students must take this course before being approved to declare Symbolic Systems as a major. All students interested in studying Symbolic Systems are urged to take this course early in their student careers. The course material and presentation will be at an introductory level, without prerequisites. Note that this is a hybrid course. Students should plan to enroll by the first day of the quarter and check their Stanford email account for instructions on how to access the course material. If you have any questions about the course, please email symsys1staff@gmail.com."
+        },
+        {
+            "title": "CS 25:",
+            "description": "Since their introduction in 2017, Transformers have revolutionized Deep Learning, powering large language models (LLM) like ChatGPT and DeepSeek, image and video generation (e.g. Dall-E and Sora), and much more. In \nCS25, one of Stanford's hottest seminar courses, we delve into Transformer architectures and their diverse applications through classroom discussions and instructor and guest lectures. Topics include LLM, creative uses in art and music, healthcare, neuroscience, robotics, and so forth. We host leading researchers, with past speakers like Andrej Karpathy, Geoffrey Hinton, Jim Fan, Ashish Vaswani, and folks from OpenAI, Anthropic, Google DeepMind, NVIDIA, etc. Lectures are livestreamed and recorded, attracting a global audience with over a million total YouTube views. This is a 1-unit S/NC course, where attendance is the only homework! Enroll via Axess or audit through livestreams or in-person, space permitting. Prerequisites: basic Deep Learning and Transformers knowledge (understanding of attention) or completion of \nCS224N, \nCS231N, or \nCS230. Course website: \nhttps://web.stanford.edu/class/cs25/"
+        }
+    ],
+    "total_courses": 10
+}

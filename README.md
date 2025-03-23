@@ -1,54 +1,77 @@
 # University CS Catalog Finder
 
-This program helps users find computer science course catalogs for universities by searching the web for relevant URLs.
+A tool that helps match university computer science courses to specific career paths by scraping course catalogs and analyzing course descriptions.
+
+## Components
+
+- `scrapper.py`: Scrapes course information from university catalog URLs
+- `match_courses.py`: Matches courses to career-specific skills using AI
+- `main.py`: Orchestrates the scraping and matching process, exports results to CSV
 
 ## Features
 
-- Simple command-line interface
-- Searches for official university course catalogs
-- Filters results to find computer science-specific catalog pages
-- Easy to use interactive prompt
+- Scrapes computer science course catalogs from university websites
+- Matches courses to different tech career paths (AI, Frontend, Backend, etc.)
+- Exports results to CSV for easy analysis
+- Uses AI to intelligently match course descriptions to career skills
 
 ## Installation
 
-1. Clone this repository or download the source files
-2. Install the required dependencies:
+1. Clone this repository
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Usage
 
-1. Run the program:
+1. Set your OpenAI API key as an environment variable:
 ```bash
-python university_catalog_finder.py
+export OPENAI_API_KEY='your-api-key'
 ```
 
-2. Enter the name of the university when prompted
-3. The program will search for and display the URL of the computer science course catalog
-4. Type 'quit' to exit the program
+2. Import and use the main function in your code:
+```python
+from main import main
 
-## Example
+# Call the main function with required parameters
+target_url = "https://cea.howard.edu/cs-course-descriptions"
+career = "Frontend Engineer"
 
+output = main(target_url, career)
 ```
-Welcome to the University CS Catalog Finder!
-This program helps you find computer science course catalogs for universities.
 
-Enter university name (or 'quit' to exit): University of Illinois Chicago
+Required Parameters:
+- `target_url`: URL of the university's CS course catalog (string)
+- `career`: One of the following career paths (string):
+  - "AI Engineer"
+  - "Frontend Engineer"
+  - "Backend Engineer"
+  - "Data Scientist"
+  - "Cyber Security Engineer"
+  - "Game Developer"
 
-Searching for University of Illinois Chicago's computer science course catalog...
+The function will:
+- Scrape the specified university catalog
+- Match courses to your chosen career path
+- Export results to a CSV file named "courses_courses.csv"
+- Return a formatted string containing the matched courses
 
-Found course catalog URL: https://catalog.uic.edu/ucat/course-descriptions/cs/
-```
+## Example Careers
+- AI Engineer
+- Frontend Engineer
+- Backend Engineer
+- Data Scientist
+- Cyber Security Engineer
+- Game Developer
+
+## Author
+
+Created by Pablo Leyva - AI Engineer  
+Connect with me on [LinkedIn](https://www.linkedin.com/in/pablo-leyva/)
 
 ## Notes
 
-- The program uses web scraping to find catalog URLs, so results may vary depending on university website structures
-- Some universities may require authentication to access their course catalogs
-- The program attempts to find the most relevant URL but may occasionally return incorrect results
-
-## Requirements
-
-- Python 3.6 or higher
-- requests library
-- beautifulsoup4 library
+- Results depend on course catalog structure and availability
+- Some universities may require authentication
+- API key required for course matching functionality
