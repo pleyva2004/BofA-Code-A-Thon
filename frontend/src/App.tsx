@@ -32,7 +32,9 @@ function App() {
         setSelectedUniversity={setSelectedUniversity} 
       />
 
-      {/* CourseDataFetcher uses the shared state.
+      {/*THIS FEATURE DOESNT WORK CAUSE IT NEEDS TO SEND THE NAME TO THE BACKEND AND I COULDNT IMPLEMENT A BACKEND
+      CAUSE I WAS SO BURNT AND COOKED, NOW BUSY
+       CourseDataFetcher uses the shared state.
           When the user clicks the fetch button, it will use the selectedUniversity and career to trigger your backend processing */}
       <CourseDataFetcher 
         universityName={selectedUniversity} 
