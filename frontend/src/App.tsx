@@ -1,21 +1,23 @@
 import React, { useState } from 'react';
 import './App.css';
 import MindMap from './components/MindMap';
+import MindMapBE from './components/MindMapBE';
+import MindMapAI from './components/MindMapAI';
 import Navbar from './components/Navbar';
 import ResourceSidebar from './components/ResourceSidebar';
-import SearchBar from './components/SearchBar';
+//import SearchBar from './components/SearchBar';
 import FeaturedResources from './components/FeaturedResources';
 import SkillProgress from './components/SkillProgress';
 
 function App() {
-  const [searchQuery, setSearchQuery] = useState('');
-  const [activeView, setActiveView] = useState<'mindmap' | 'resources' | 'skills'>('mindmap');
-  
+  //const [searchQuery, setSearchQuery] = useState('');
+  const [activeView, setActiveView] = useState<'mindmap' | 'mindmapbe' | 'mindmapai' | 'resources' | 'skills'>('mindmap');
+  /*
   const handleSearch = (query: string) => {
     setSearchQuery(query);
     console.log('Searching for:', query);
   };
-
+*/
   return (
     <div className="App">
       <Navbar />
@@ -25,27 +27,31 @@ function App() {
             className={`toggle-btn ${activeView === 'mindmap' ? 'active' : ''}`}
             onClick={() => setActiveView('mindmap')}
           >
-            Career Mind Map
+            Front End Developer
           </button>
           <button 
-            className={`toggle-btn ${activeView === 'resources' ? 'active' : ''}`}
-            onClick={() => setActiveView('resources')}
+            className={`toggle-btn ${activeView === 'mindmapbe' ? 'active' : ''}`}
+            onClick={() => setActiveView('mindmapbe')}
           >
-            Featured Resources
+            Back End Developer
           </button>
           <button 
-            className={`toggle-btn ${activeView === 'skills' ? 'active' : ''}`}
-            onClick={() => setActiveView('skills')}
+            className={`toggle-btn ${activeView === 'mindmapai' ? 'active' : ''}`}
+            onClick={() => setActiveView('mindmapai')}
           >
-            Skill Tracker
+            AI/ML Engineer
           </button>
         </div>
         <div className="card">
           <div className="app-container">
-            <ResourceSidebar />
+            <ResourceSidebar /> {/*left section of website, commenting the tag out will remove that sections*/}
             <div className="main-content">
+              {/*
               <SearchBar onSearch={handleSearch} />
+              */} 
               {activeView === 'mindmap' && <MindMap />}
+              {activeView === 'mindmapbe' && <MindMapBE />}
+              {activeView === 'mindmapai' && <MindMapAI />}
               {activeView === 'resources' && <FeaturedResources />}
               {activeView === 'skills' && <SkillProgress />}
             </div>
